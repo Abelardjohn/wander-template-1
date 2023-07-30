@@ -284,7 +284,82 @@ body {
 
 /* end of hal-4 */
 
+/* style for hal-5*/
 
+.hal-5{
+  background: linear-gradient(to top, #c9af95, #FFFFFF);
+  min-height: 100vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 3.5rem 1rem 3.5rem 1rem;
+}
+
+.hal-5  h3{
+  color: var(--primary-p-400, #53312D);
+  /* Secondary/Base/Regular */
+  font-family: Amita;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 1.8rem */
+  letter-spacing: 0.06rem;
+}
+
+.hal-5 p{
+  color: var(--primary-p-200, #8D6560);
+  text-align: center;
+
+  /* Primary/S/Medium */
+  font-family: Poppins;
+  font-size: 0.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 0.84375rem */
+  letter-spacing: 0.0225rem;
+}
+
+.hal-5 h3{
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 20.4px */
+  letter-spacing: 0.68px;
+  }
+
+.hal-5 img{
+  border-radius: 0.8rem;
+}
+
+
+/* end of hal-5 */
+
+/* style hal-6 */
+
+.hal-6 p{
+  color: var(--primary-p-200, #8D6560);
+text-align: center;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 16.5px */
+  letter-spacing: 0.44px;
+}
+.hal-6 h5{
+  color: var(--primary-p-400, #53312D);
+  text-align: center;
+  
+  /* Primary/Base/Bold */
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+  letter-spacing: 0.48px;
+}
+
+/* end of hal-6 */
 
 
 
