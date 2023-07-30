@@ -22,5 +22,8 @@ function formatTime(time) {
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
+// Inisialisasi AOS
+AOS.init();
+
 
 

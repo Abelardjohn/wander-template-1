@@ -13,6 +13,7 @@ body {
   .hero{
     background-color: #646464; /* Warna pastel untuk hero section */
     background-image: url(/img/photo1.png);
+    /* background-size: cover; */
     min-height: 100vh; /* Mengisi seluruh tinggi viewport (layar) */
     display: flex; /* Membuat body menjadi flex container */
     align-items: center; /* Mengatur teks ke tengah secara vertikal */
@@ -71,23 +72,38 @@ body {
     align-items: center; 
     justify-content: center;
     padding: 1rem 1rem 1rem 1rem;
+    
+    animation: changeBackground 5s infinite alternate;
 
+  }
+
+  @keyframes changeBackground {
+    0% {
+      background-image: url('img/photo1.png'); /* Ganti dengan URL gambar pertama */
+    }
+    100% {
+      background-image: url('img/photo2.png'); /* Ganti dengan URL gambar kedua */
+    }
+    /* 100% {
+      background-image: url('img/photo1.png'); /* Kembali ke gambar pertama */
+   
   }
 
 .hal-1-content-1{
     font-family: Amita;
 }
 .hal-1-content-1 p{
-    font-size: 1rem;
-    font-style: normal;
     letter-spacing: 0.2rem;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
 }
 .hal-1-content-1 h3{
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.3rem;
 }
 
 .hal-1-content-2{
@@ -221,6 +237,7 @@ body {
 .hal-4 a{
   border-color: #53312D;
   border-radius: 0.5rem;
+  color: #53312D;
 }
 
 
@@ -287,7 +304,7 @@ body {
 /* style for hal-5*/
 
 .hal-5{
-  background: linear-gradient(to top, #c9af95, #FFFFFF);
+  background: linear-gradient(to top, #c9af95, #c9af95, #FFFFFF);
   min-height: 100vh; 
   display: flex; 
   align-items: center; 
@@ -338,7 +355,7 @@ body {
 
 .hal-6 p{
   color: var(--primary-p-200, #8D6560);
-text-align: center;
+  text-align: center;
   font-family: Poppins;
   font-size: 11px;
   font-style: normal;
@@ -490,14 +507,21 @@ text-align: center;
   margin-bottom: 10rem;
 }
 
-.hal-8 img{
-  background-color: transparent;
-  position: absolute;
-  
-  margin-left: -9.5rem;
-  margin-top: 67%;
-  
-  
+.hal-8 .footer{
+
+  position: absolute; 
+  margin-top: 70%;
+  margin-left: 10px;
+
+}
+
+.hal-8 .p{
+  font-family: Poppins;
+  font-size: 0.4625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 0.84375rem */
+  letter-spacing: 0.0225rem;
 }
 
 /* end of hal-8 */
