@@ -12,12 +12,13 @@ body {
 
   .hero{
     background-color: #646464; /* Warna pastel untuk hero section */
-    background: url(/img/photo1.png);
+    background-image: url(/img/photo1.png);
     min-height: 100vh; /* Mengisi seluruh tinggi viewport (layar) */
     display: flex; /* Membuat body menjadi flex container */
     align-items: center; /* Mengatur teks ke tengah secara vertikal */
     justify-content: center; /* Mengatur teks ke tengah secara horizontal */
   }
+
 
   .hero h3{
    /* Secondary/H3/Bold */
@@ -64,7 +65,7 @@ body {
 /* style for hal-1 */
 .hal-1{
     background-color: #646464; 
-    background: url(/img/photo2.png);
+    background-image: url(/img/photo2.png);
     min-height: 100vh; 
     display: flex; 
     align-items: center; 
