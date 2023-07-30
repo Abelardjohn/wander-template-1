@@ -1,17 +1,24 @@
-const { simplyCountdown } = require("./simplyCountdown");
+const countdownDate = new Date('2024-12-12T16:00:00').getTime();
 
-const audioPlayer = document.getElementById('audioPlayer');
-const playPauseButton = document.getElementById('playPauseButton');
+function updateCountdown() {
+  const now = new Date().getTime();
+  const distance = countdownDate - now;
 
-playPauseButton.addEventListener('click', () => {
-  if (audioPlayer.paused) {
-    audioPlayer.play();
-    playPauseButton.innerHTML = '&#10074;&#10074;'; // Tampilkan ikon jeda
-  } else {
-    audioPlayer.pause();
-    playPauseButton.innerHTML = '&#9658;'; // Tampilkan ikon play
-  }
-});
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  document.getElementById('days').textContent = formatTime(days);
+  document.getElementById('hours').textContent = formatTime(hours);
+  document.getElementById('minutes').textContent = formatTime(minutes);
+  document.getElementById('seconds').textContent = formatTime(seconds);
+}
 
-simplyCountdown('.countdown', {});
+function formatTime(time) {
+  return time < 10 ? `0${time}` : time;
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+

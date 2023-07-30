@@ -12,7 +12,7 @@ body {
 
   .hero{
     background-color: #646464; /* Warna pastel untuk hero section */
-    background: url(/img/photo1.png), lightgray 50% / cover no-repeat;
+    background: url(/img/photo1.png);
     min-height: 100vh; /* Mengisi seluruh tinggi viewport (layar) */
     display: flex; /* Membuat body menjadi flex container */
     align-items: center; /* Mengatur teks ke tengah secara vertikal */
@@ -63,12 +63,14 @@ body {
 
 /* style for hal-1 */
 .hal-1{
-    background-color: #646464; /* Warna pastel untuk hero section */
-    background: url(/img/photo2.png), lightgray 50% / cover no-repeat;
-    min-height: 100vh; /* Mengisi seluruh tinggi viewport (layar) */
-    display: flex; /* Membuat body menjadi flex container */
-    align-items: center; /* Mengatur teks ke tengah secara vertikal */
-    justify-content: center; /* Mengatur teks ke tengah secara horizontal */
+    background-color: #646464; 
+    background: url(/img/photo2.png);
+    min-height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+
   }
 
 .hal-1-content-1{
@@ -103,10 +105,12 @@ body {
 
 .hal-2{
     background: linear-gradient(to top, #c9af95, #FFFFFF);
-    min-height: 100vh; /* Mengisi seluruh tinggi viewport (layar) */
-    display: flex; /* Membuat body menjadi flex container */
-    align-items: center; /* Mengatur teks ke tengah secara vertikal */
-    justify-content: center; /* Mengatur teks ke tengah secara horizontal */
+    min-height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 1rem 1rem 1rem 1rem;
+
   }
 
 .hal-2 main{
@@ -135,6 +139,7 @@ body {
     display: flex; 
     align-items: center; 
     justify-content: center; 
+    padding: 1rem 1rem 1rem 1rem;
   }
 
 .hal-3  h3{
@@ -181,21 +186,22 @@ body {
 
 .hal-4 .pembungkus{
     display: flex;
-    height: 72.44213rem;
-    padding: 3rem 2rem;
+    height: 75.44213rem;
+    padding: 3rem 3rem;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-shrink: 0;
 
     border-radius: 7.5rem;
     background: var(--white-w-300, #FAF9F7);
+    color: #53312D;
 }
 
 
 .hal-4 h4{
     color: var(--primary-p-200, #8D6560);
-    font-size: 1.0625rem;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: 500;
     line-height: 150%; /* 1.59375rem */
@@ -205,6 +211,37 @@ body {
 .hal-4 .heart-shape{
     border-radius: 0.42581rem;
 }
+
+.hal-4 h3 h6 h5 p a {
+  color: #53312D;
+  /* z-index: 10; */
+}
+
+.hal-4 a{
+  border-color: #53312D;
+  border-radius: 0.5rem;
+}
+
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: Amita;
+  /* gap: 32px; */
+}
+
+.countdown > div {
+  margin: 0 10px;
+  
+}
+
+.countdown p{
+  font-family: Poppins;
+  font-size: 12px;
+}
+
 
 /* .heart-shape{
     position: relative;
