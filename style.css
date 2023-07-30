@@ -1,0 +1,295 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    min-height: 3000px;
+    width: 24.375rem;
+  }
+  
+/* style for hero   */
+
+  .hero{
+    background-color: #646464; /* Warna pastel untuk hero section */
+    background: url(/img/photo1.png), lightgray 50% / cover no-repeat;
+    min-height: 100vh; /* Mengisi seluruh tinggi viewport (layar) */
+    display: flex; /* Membuat body menjadi flex container */
+    align-items: center; /* Mengatur teks ke tengah secara vertikal */
+    justify-content: center; /* Mengatur teks ke tengah secara horizontal */
+  }
+
+  .hero h3{
+   /* Secondary/H3/Bold */
+    font-family: Amita;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.125rem;
+  }
+
+  .hero p{
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 1.40625rem */
+    letter-spacing: 0.0375rem;
+  }
+
+.hero-info{
+    margin-top: 3rem;
+}
+
+.hero-info p{
+    color: var(--primary-p-200, #8D6560);
+    /* Primary/H5/Medium */
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 1.59375rem */
+    letter-spacing: 0.0425rem;
+  }
+.hero-info .btn{
+    border-radius: 0.5rem;
+    background: var(--primary-p-300, #764640);
+  }
+
+.hero-content{
+    margin-bottom: 10rem;
+}
+
+/* end of hero */
+
+/* style for hal-1 */
+.hal-1{
+    background-color: #646464; /* Warna pastel untuk hero section */
+    background: url(/img/photo2.png), lightgray 50% / cover no-repeat;
+    min-height: 100vh; /* Mengisi seluruh tinggi viewport (layar) */
+    display: flex; /* Membuat body menjadi flex container */
+    align-items: center; /* Mengatur teks ke tengah secara vertikal */
+    justify-content: center; /* Mengatur teks ke tengah secara horizontal */
+  }
+
+.hal-1-content-1{
+    font-family: Amita;
+}
+.hal-1-content-1 p{
+    font-size: 1rem;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+}
+.hal-1-content-1 h3{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.2rem;
+}
+
+.hal-1-content-2{
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 1.125rem */
+    letter-spacing: 0.03rem;
+}
+
+
+
+/* end of hal-1 */
+
+/* style fo hal-2 */
+
+.hal-2{
+    background: linear-gradient(to top, #c9af95, #FFFFFF);
+    min-height: 100vh; /* Mengisi seluruh tinggi viewport (layar) */
+    display: flex; /* Membuat body menjadi flex container */
+    align-items: center; /* Mengatur teks ke tengah secara vertikal */
+    justify-content: center; /* Mengatur teks ke tengah secara horizontal */
+  }
+
+.hal-2 main{
+    margin-bottom: 5rem;
+}
+
+
+.hal-2 .p1{
+    /* text-align: justify; */
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 1.125rem */
+    letter-spacing: 0.03rem;
+    }
+
+
+/* end of hal-2 */
+
+
+/* style for hal-3*/
+
+.hal-3{
+    background: linear-gradient(to top, #c9af95, #FFFFFF);
+    min-height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+
+.hal-3  h3{
+    color: var(--primary-p-400, #53312D);
+    /* Secondary/Base/Regular */
+    font-family: Amita;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.8rem */
+    letter-spacing: 0.06rem;
+}
+
+.hal-3 p{
+    color: var(--primary-p-200, #8D6560);
+    text-align: center;
+
+    /* Primary/S/Medium */
+    font-family: Poppins;
+    font-size: 0.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 0.84375rem */
+    letter-spacing: 0.0225rem;
+}
+
+
+/* end of hal-3 */
+
+
+/* style fo hal-4 */
+
+.hal-4{
+    background-color: #c9af95;
+    min-height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+    padding: 3rem 1.6875rem 3.05788rem 1.75rem;
+    flex-direction: column;
+    
+  }
+
+.hal-4 .pembungkus{
+    display: flex;
+    height: 72.44213rem;
+    padding: 3rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+
+    border-radius: 7.5rem;
+    background: var(--white-w-300, #FAF9F7);
+}
+
+
+.hal-4 h4{
+    color: var(--primary-p-200, #8D6560);
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 1.59375rem */
+    letter-spacing: 0.0425rem;
+}
+
+.hal-4 .heart-shape{
+    border-radius: 0.42581rem;
+}
+
+/* .heart-shape{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: rgba(250,184,66, 1);
+    background: url(/img/photo5.png);
+  }
+  .heart-shape:before,
+  .heart-shape:after{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(250,184,66, 1);
+    background: url(/img/photo5.png);
+
+  }
+  .heart-shape:before{
+    bottom: 0px;
+    left: -100px;
+  }
+  .heart-shape:after{
+    top: -100px;
+    right: 0px;
+  } */
+
+
+
+
+/* end of hal-4 */
+
+
+
+
+
+
+/* CSS untuk tampilan mobile (ukuran layar kurang dari 600px) */
+@media (max-width: 599px) {
+    /* Isi CSS untuk tampilan mobile di sini */
+  }
+  
+  /* CSS untuk tampilan tablet (ukuran layar antara 600px hingga 1023px) */
+  @media (min-width: 600px) and (max-width: 1023px) {
+    /* Isi CSS untuk tampilan tablet di sini */
+  }
+  
+  /* CSS untuk tampilan desktop/laptop (ukuran layar lebih dari 1023px) */
+  @media (min-width: 1024px) {
+    /* Isi CSS untuk tampilan desktop/laptop di sini */
+  }
+  
+
+
+
+  /* audio {
+    outline: none;
+  }
+
+  .custom-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .play-pause-button {
+    background-color: #646464;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  } */
