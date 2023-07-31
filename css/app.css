@@ -8,6 +8,9 @@ body {
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+    
 }
 
 body::-webkit-scrollbar {

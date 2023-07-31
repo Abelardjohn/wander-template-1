@@ -11,18 +11,18 @@
 /* style for hero   */
 
   .hero{
-    background-color: #646464; /* Warna pastel untuk hero section */
+    background-color: #646464; 
     background-image: url(/img/photo1.png);
-    /* background-size: cover; */
-    min-height: 100vh; /* Mengisi seluruh tinggi viewport (layar) */
-    display: flex; /* Membuat body menjadi flex container */
-    align-items: center; /* Mengatur teks ke tengah secara vertikal */
-    justify-content: center; /* Mengatur teks ke tengah secara horizontal */
+    min-height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
   }
 
 
   .hero h3{
-   /* Secondary/H3/Bold */
+    
     font-family: Amita;
     font-size: 3.125rem;
     font-style: normal;
@@ -35,7 +35,7 @@
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 1.40625rem */
+    line-height: 150%; 
     letter-spacing: 0.0375rem;
   }
 
@@ -45,11 +45,11 @@
 
 .hero-info p{
     color: var(--primary-p-200, #8D6560);
-    /* Primary/H5/Medium */
+  
     font-size: 1.0625rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 1.59375rem */
+    line-height: 150%; 
     letter-spacing: 0.0425rem;
   }
 .hero-info .btn{
@@ -516,11 +516,17 @@
 
 .hal-8 .footer{
 
-  position: absolute; 
-  margin-top: 70%;
-  margin-left: 10px;
+  position: relative;
+  bottom: -20rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 0px;
+  text-align: center;
 
 }
+
+
 
 .hal-8 .p{
   font-family: Poppins;
@@ -537,12 +543,14 @@
 /* CSS untuk tampilan mobile (ukuran layar kurang dari 600px) */
 @media (max-width: 599px) {
     /* Isi CSS untuk tampilan mobile di sini */
+
     .parent {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(3, 1fr);
       grid-column-gap: 5px;
       grid-row-gap: 5px;
+      text-align: center;
       }
       
       .div1 { grid-area: 1 / 2 / 2 / 3; }
@@ -551,6 +559,21 @@
       .div4 { grid-area: 2 / 3 / 3 / 4; }
       .div5 { grid-area: 3 / 2 / 4 / 3; }
       .div6 { grid-area: 3 / 3 / 4 / 4; }
+
+      .parent img{
+        max-width: 140px;
+        height: auto;
+
+      }
+
+      .hal-7 button{
+
+        background: var(--primary-p-300, #764640);
+        border-color: #764640;
+        border-radius: 8px;
+        width: 191px;
+      
+      }
 
   }
   
