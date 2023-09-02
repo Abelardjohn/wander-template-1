@@ -12,11 +12,12 @@
 
   .hero{
     background-color: #646464; 
-    background-image: url(/img/photo1.png);
+    background-image: url(./img/photo1.png);
     min-height: 100vh; 
     display: flex; 
     align-items: center; 
     justify-content: center; 
+    /* background-size: cover; */
 
   }
 
@@ -411,7 +412,7 @@
 .hal-7 .pembungkus{
   display: flex;
   height: 75.44213rem;
-  padding: 3rem 3rem;
+  padding: 2rem 2rem;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
@@ -441,7 +442,7 @@
 
   /* Primary/L/Regular */
   font-family: Poppins;
-  font-size: 14px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 21px */
@@ -454,7 +455,7 @@
   color: #fff;
 }
 
-.hal-7 button{
+.hal-7 button .btn{
 
   background: var(--primary-p-300, #764640);
   border-color: #764640;
@@ -475,7 +476,7 @@
 
 .hal-8{
   background-color: #646464; 
-  background-image: url(/img/photo2.png);
+  background-image: url(./img/photo2.png);
   min-height: 100vh; 
   display: flex; 
   align-items: center; 
@@ -541,7 +542,7 @@
 
 
 /* CSS untuk tampilan mobile (ukuran layar kurang dari 600px) */
-@media (max-width: 599px) {
+@media (max-width: 499px) {
     /* Isi CSS untuk tampilan mobile di sini */
 
     .parent {
