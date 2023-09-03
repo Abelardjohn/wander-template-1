@@ -1,12 +1,6 @@
-/* body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
-    color: #444;
-    margin: 0;
-    padding: 0;
-    min-height: 3000px;
-    width: 24.375rem;
-  } */
+html ,body {
+   overflow-x: hidden;
+  }
   
 /* style for hero   */
 
@@ -17,7 +11,10 @@
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    /* background-size: cover; */
+    background-size: cover;
+    background-position: center;
+
+    
 
   }
 
@@ -73,6 +70,8 @@
     align-items: center; 
     justify-content: center;
     padding: 1rem 1rem 1rem 1rem;
+    background-size: cover;
+    background-position: center;
     
     animation: changeBackground 5s infinite alternate;
 
@@ -395,7 +394,7 @@
 /* end of hal-6 */
 
 
-/* style fo hal-4 */
+/* style fo hal-7 */
 
 .hal-7{
   background-color: #D6BFA7;
@@ -482,6 +481,8 @@
   align-items: center; 
   justify-content: center;
   padding: 1rem 1rem 1rem 1rem;
+  background-size: cover;
+  background-position: center;
 
 }
 
@@ -541,8 +542,22 @@
 /* end of hal-8 */
 
 
+
+/* music */
+
+.btn-music {
+  position: fixed;
+  bottom: 5vh;
+  right: 1vh;
+  z-index: 1055;
+  background-color: transparent;
+  border-color: transparent;
+}
+/* end of music */
+
+
 /* CSS untuk tampilan mobile (ukuran layar kurang dari 600px) */
-@media (max-width: 499px) {
+@media (max-width: 599px) {
     /* Isi CSS untuk tampilan mobile di sini */
 
     .parent {

@@ -71,13 +71,13 @@ const timer = () => {
     }, 1000);
 };
 
-const buka = async () => {
-    document.getElementById('tombol-musik').style.display = 'block';
-    audio.play();
-    AOS.init();
-    await login();
-    timer();
-};
+// const buka = async () => {
+//     document.getElementById('tombol-musik').style.display = 'block';
+//     audio.play();
+//     AOS.init();
+//     await login();
+//     timer();
+// };
 
 const play = (btn) => {
     if (btn.getAttribute('data-status').toString() != 'true') {

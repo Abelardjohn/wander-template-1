@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Undangan Digital</title>
-  <link rel="icon" type="image/png" sizes="250x250" href="./img/Logo (1).png">
+  <link rel="icon" type="image/png" sizes="450x450" href="./img/Logo (1).png">
   <!-- Hubungkan dengan CSS Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
@@ -25,6 +25,10 @@
 
   <!-- animasi aos -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous">
+
+  <!-- logo -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+
 
 
   <!-- JQUERY untuk tampilkan data wishes dan POST data ke DB -->
@@ -111,7 +115,7 @@
 
         <div class="hero-info" data-aos="fade-left" data-aos-duration="2000">
           <P><strong>Dear: Arwan & Aurora</strong></P>
-          <a href="#hal-1" id="hero-button" class="btn text-white">Open Invitation</a>
+          <a href="#hal-1" id="hero-button" class="btn btn-open-invitation text-white" onclick="enableScroll()">Open Invitation</a>
         </div>
       </main>
     </div>
@@ -132,7 +136,7 @@
 
   </section>
 
-  <!-- hal-2 section -->
+  <!-- hal-2 section ayat alkitab -->
   <section id="hal-2" class="hal-2 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white hidden">
 
     <main>
@@ -150,7 +154,7 @@
 
   <!-- end of hal-2 -->
 
-  <!-- hal-3 section -->
+  <!-- hal-3 section foto pengantin -->
   <section id="hal-3" class="hal-3 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white">
 
     <main>
@@ -177,7 +181,7 @@
 
   <!-- end of hal-3 -->
 
-  <!-- hal-4 section -->
+  <!-- hal-4 section countdown -->
 
   <section id="hal-4" class="hal-4 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white">
 
@@ -246,13 +250,15 @@
         </div>
 
       </div>
+
+
     </main>
 
   </section>
 
   <!-- end of hal-4 -->
 
-  <!-- hal-5 section -->
+  <!-- hal-5 section love story -->
   <section id="hal-5" class="hal-5 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white">
 
     <main>
@@ -287,7 +293,7 @@
 
   <!-- end of hal-5 -->
 
-  <!-- hal-6 section -->
+  <!-- hal-6 section moments -->
 
   <section style="background-color: #c9af95 !important; margin-top: -5px; margin-bottom: -5px;" id="galeri" class="hal-6">
 
@@ -409,7 +415,7 @@
 
   <!-- end of hal-7 -->
 
-  <!-- hal-8 section END -->
+  <!-- hal-8 section END footer -->
 
   <section id="hal-8" class="hal-8 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white">
 
@@ -440,53 +446,10 @@
   <!-- template -->
 
 
-  <!-- <button type="button" id="tombol-musik" style="display: none;" class="btn btn-light btn-sm rounded-circle btn-music" onclick="play(this)" data-status="true" data-url="assets/music/sound.mp3">
-        <i class="fa-solid fa-circle-pause"></i>
-    </button> -->
 
-  <!-- <div class="loading" id="loading" style="opacity: 1;">
-        <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
-            <div class="progress w-75" role="progressbar">
-                <div class="progress-bar" id="bar" style="width: 0%; background-color: #53312D;">0%</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modalFoto" tabindex="-1" aria-labelledby="modalFotoLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
-                        <img src="" class="w-100" alt="foto" id="showModalFoto">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" id="exampleModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen m-0">
-            <div class="modal-content m-0 p-0">
-                <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
-                    <div class="text-center">
-                        <h1 class="font-estetik mb-4" style="font-size: 2.2rem;">The Wedding Of</h1>
-                        <div class="cropper border border-3 border-light shadow mb-4 mx-auto">
-                            <img src="img/photo5.png" alt="bg">
-                        </div>
-                        <h1 class="font-estetik my-4" style="font-size: 2.5rem;">Mentari & Bintang</h1>
-                        <div id="namatamu"></div>
-                        <button type="button" class="btn btn-light shadow rounded-4 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="buka()">
-                            <i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
+  <button type="button" id="tombol-musik" style="display: none;" class="btn btn-light btn-sm rounded-circle btn-music" onclick="play(this)" data-status="true" data-url="./music/music1.mp3">
+    <i class="fa-solid fa-circle-pause"></i>
+  </button>
 
 
 
@@ -503,7 +466,36 @@
 
 
   <script src="./index.js"></script>
-  <!-- <script src="./js/app.js"></script> -->
+  <script src="./js/app.js"></script>
+
+  <!-- script untuk disable fungsi schroll -->
+  <script>
+    const rootElement = document.querySelector(":root");
+
+    function disableScroll() {
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+      window.onscroll = function() {
+        window.scrollTo(scrollTop, scrollLeft);
+      }
+
+      rootElement.style.scrollBehavior = 'auto';
+    }
+
+    function enableScroll() {
+      //untuk memanggil tombol button
+      document.getElementById('tombol-musik').style.display = 'block';
+      audio.play();
+      ///
+      window.onscroll = function() {}
+      rootElement.style.scrollBehavior = 'smooth';
+    }
+
+    disableScroll();
+  </script>
+
+  <!-- script untuk on/off music -->
 
 
 
