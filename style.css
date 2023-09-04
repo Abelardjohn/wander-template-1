@@ -304,7 +304,7 @@ html ,body {
 /* style for hal-5*/
 
 .hal-5{
-  background: linear-gradient(to top, #c9af95, #c9af95, #FFFFFF);
+  background: linear-gradient(to top, #f4e2d1, #c9af95, #FFFFFF);
   min-height: 100vh; 
   display: flex; 
   align-items: center; 
@@ -353,11 +353,16 @@ html ,body {
 
 /* style hal-6 */
 
+.hal-6{
+  background: linear-gradient(to top, #c9af95, #c9af95, #f4e2d1);
+  
+}
+
 .hal-6 p{
   color: var(--primary-p-200, #8D6560);
   text-align: center;
   font-family: Poppins;
-  font-size: 11px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 16.5px */
@@ -397,8 +402,8 @@ html ,body {
 /* style fo hal-7 */
 
 .hal-7{
-  background-color: #D6BFA7;
-  min-height: 100vh; 
+  background-color: #c9af95;
+  min-height:100vh;
   display: flex; 
   align-items: center; 
   justify-content: center; 
@@ -441,7 +446,7 @@ html ,body {
 
   /* Primary/L/Regular */
   font-family: Poppins;
-  font-size: 10px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 21px */
@@ -468,6 +473,21 @@ html ,body {
 
 }
 
+/* Change placeholder text color to white */
+input::placeholder,
+textarea::placeholder {
+  color: white !important;
+  font-weight: lighter !important;
+  font-size: 11px;
+}
+
+.hal-7 .card{
+
+  overflow-y: auto;
+
+}
+
+
 /* end of hal-7 */
 
 
@@ -483,12 +503,19 @@ html ,body {
   padding: 1rem 1rem 1rem 1rem;
   background-size: cover;
   background-position: center;
+  position: relative;
 
 }
 
 .hal-8-content-1{
   font-family: Amita;
 }
+
+.hal-8-pembungkus{
+  position: absolute;
+  margin-top: 15px;
+}
+
 .hal-8-content-1 p{
   font-size: 1rem;
   font-style: normal;
@@ -519,7 +546,7 @@ html ,body {
 .hal-8 .footer{
 
   position: relative;
-  bottom: -20rem;
+  bottom: -24rem;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -590,6 +617,9 @@ html ,body {
         width: 191px;
       
       }
+      
+
+      
 
   }
   

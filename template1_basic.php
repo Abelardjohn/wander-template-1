@@ -106,7 +106,7 @@
     <div class="container pb-2 pt-4">
       <main class="hero-content">
         <div class="hero-content-text1" data-aos="fade-right" data-aos-duration="2000">
-          <p>TEH WEDDING OF</p>
+          <p>THE WEDDING OF</p>
 
           <h3>Mentari</h3>
           <h3>&</h3>
@@ -114,8 +114,8 @@
         </div>
 
         <div class="hero-info" data-aos="fade-left" data-aos-duration="2000">
-          <P><strong>Dear: Arwan & Aurora</strong></P>
-          <a href="#hal-1" id="hero-button" class="btn btn-open-invitation text-white" onclick="enableScroll()">Open Invitation</a>
+          <P>Dear: Arwan & Aurora</P>
+          <a href="#open-invitation" id="hero-button" class="btn btn-open-invitation text-white" onclick="enableScroll()">Open Invitation</a>
         </div>
       </main>
     </div>
@@ -123,7 +123,7 @@
   </section>
 
   <!-- hal-1 section -->
-  <section id="hal-1" class="hal-1 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white">
+  <section id="open-invitation" class="hal-1 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white">
 
     <main>
       <div class="hal-1-content-1">
@@ -131,7 +131,7 @@
         <h3 class="mt-4">Mentari & Bintang</h3>
       </div>
 
-      <p style="color: #8D6560;" class="hal-1-content-2 mt-4"><strong>Join us on our special day, where your <br> presence is cherished</strong></p>
+      <p style="color: #8D6560; opacity: 0.5;" class="hal-1-content-2 mt-4">Join us on our special day, where your <br> presence is cherished</p>
     </main>
 
   </section>
@@ -140,10 +140,10 @@
   <section id="hal-2" class="hal-2 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white hidden">
 
     <main>
-      <img src="img/photo3.png" alt="photo1" class="" data-aos="fade-right" data-aos-duration="2000">
+      <img src="img/photo3.png" alt="photo1" class="mt-4" data-aos="fade-right" data-aos-duration="2000">
       <img src="img/photo4.png" alt="photo2" class="mt-3" data-aos="fade-left" data-aos-duration="2000">
 
-      <p style="color: #8D6560; font-size: 0.6875rem;" class="p1 mt-5" data-aos="fade-right" data-aos-duration="1700"><strong>"Two are better than one, because they have a good return for their labor: If either of them falls down, one can help the other up. But pity anyone who falls and has no one to help them up."</strong></p>
+      <p style="color: #8D6560; font-size: 0.6875rem;" class="p1 mt-5" data-aos="fade-right" data-aos-duration="1700">"Two are better than one, because they have a good return for their labor: If either of them falls down, one can help the other up. But pity anyone who falls and has no one to help them up."</p>
 
       <p style="color: #53312D; font-weight: 700; font-size: 0.75rem;" class="p2" data-aos="fade-left" data-aos-duration="2000"><strong>Ecclesiastes 4 : 9 - 10</strong></p>
 
@@ -192,23 +192,23 @@
         <h4 data-aos="fade-right" data-aos-duration="1500">Count Down to Our Day</h4>
 
         <!-- contdown item -->
-        <div class="countdown" data-aos="fade-right" data-aos-duration="2000">
+        <div class="countdown" style="font-weight: bolder;" data-aos="fade-right" data-aos-duration="2000">
 
           <div class="gap">
-            <div id="days">00</div>
-            <p>Days</p>
+            <div id="days"><strong>00</strong></div>
+            <p style="font-weight:lighter">Days</p>
           </div>
           <div class="gap">
-            <div id="hours">00</div>
-            <p>Hours</p>
+            <div id="hours"><strong>00</strong></div>
+            <p style="font-weight:lighter">Hours</p>
           </div>
           <div class="gap">
-            <div id="minutes">00</div>
-            <p>Minutes</p>
+            <div id="minutes"><strong>00</strong></div>
+            <p style="font-weight:lighter">Minutes</p>
           </div>
           <div class="gap">
-            <div id="seconds">00</div>
-            <p>Second</p>
+            <div id="seconds"><strong>00</strong></div>
+            <p style="font-weight:lighter">Seconds</p>
           </div>
 
         </div>
@@ -217,15 +217,20 @@
 
         <!-- alamat-1 -->
         <div class="alamat-1 mt-4" data-aos="fade-left" data-aos-duration="2000">
-          <h3 style="font-family: Amita; font-weight: 700;">HOLY MATRIMONY</h3>
-          <h6 class="mt-3">THURSDAY</h6>
-          <h2 style="font-weight: 700;"><strong>12</strong></h2>
-          <h6>DECEMBER 2024</h6>
+
+          <h3 style="font-family: Amita; font-weight: 550;" style="font-size:smaller">HOLY MATRIMONY</h3>
+          <h6 class="mt-3" style="font-size:smaller">THURSDAY</h6>
+          <h2 style="font-weight: 700;">12</h2>
+          <h6 style="font-size:smaller">DECEMBER 2024</h6>
+
+
           <h5 style="font-weight: 700; font-size: 0.875rem;">
             <STr>16:00 - 18:00 WIB</STr>
           </h5>
           <p style="font-size: 0.75rem;" class="p mt-3">Gereja Getsemani Bali <br>
             Jl. Lorem Ipsum 12</p>
+
+
           <a class="btn" href="https://goo.gl/maps/o8tLhAUUWgSX2AYX7" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
               <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
               <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
@@ -233,16 +238,20 @@
         </div>
         <!-- alamat-2 -->
 
-        <div class="alamat-2 mt-5" data-aos="fade-left" data-aos-duration="1500">
-          <h3 style="font-family: Amita; font-weight: 700;">WEDDING PARTY</h3>
-          <h6>THURSDAY</h6>
-          <h2 style="font-weight: 700;"><strong>12</strong></h2>
-          <h6>DECEMBER 2024</h6>
+        <div class="alamat-2 mt-5" data-aos="fade-right" data-aos-duration="1500">
+
+          <h3 style="font-family: Amita; font-weight: 550;" style="font-size:smaller">HOLY MATRIMONY</h3>
+          <h6 class="mt-3" style="font-size:smaller">THURSDAY</h6>
+          <h2 style="font-weight: 700;">12</h2>
+          <h6 style="font-size:smaller">DECEMBER 2024</h6>
+
           <h5 style="font-weight: 700; font-size: 0.875rem;">
             <STr>18:00 - 21:00 WIB</STr>
           </h5>
           <p style="font-size: 0.75rem;" class="p mt-3">Stone Villas Uluwatu Bali <br>
             Jl. Lorem Ipsum 24</p>
+
+
           <a class="btn" href="https://goo.gl/maps/o8tLhAUUWgSX2AYX7" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
               <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
               <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
@@ -270,20 +279,20 @@
       </div>
 
 
-      <div class="gambar2 mt-4" data-aos="fade-left" data-aos-duration="1500">
+      <div class="gambar2 mt-5" data-aos="fade-left" data-aos-duration="1500">
         <img src="img/love-story-2.png" alt="love-story-2">
         <h3 class="mt-2 text-white">Dating - 12 . 12 . 2020</h3>
 
       </div>
 
       <div class="gambar3" data-aos="fade-right" data-aos-duration="2000">
-        <img class="mt-3" src="img/love-story-3.png" alt="love-story-3">
+        <img class="mt-5" src="img/love-story-3.png" alt="love-story-3">
         <h3 class="mt-2 text-white">Engaged - 12 . 2 . 2022</h3>
 
       </div>
 
       <div class="gambar4" data-aos="fade-left" data-aos-duration="1500">
-        <img class="mt-3" src="img/love-story-4.png" alt="love-story-4">
+        <img class="mt-5" src="img/love-story-4.png" alt="love-story-4">
         <h3 class="mt-2 text-white">Married - 12 . 12 . 2022</h3>
 
       </div>
@@ -299,37 +308,37 @@
 
 
     <div class="container pb-2 pt-4">
-      <div class="card-body  shadow p-3">
-        <h1 class="font-estetik text-center py-3" data-aos="fade-down" data-aos-duration="1500" style="font-size: 2rem; font-family: Poppins;  font-size: 19px;
-              font-style: normal; " data-aos="fade-left" data-aos-duration="2000">Our Moments</h1>
+      <!-- <div class="card-body  shadow p-3"> -->
+      <h1 class="font-estetik text-center py-3" data-aos="fade-down" data-aos-duration="1500" style="font-size: 2rem; font-family: Poppins;  font-size: 19px;
+              font-style: normal; color:#53312D;" data-aos="fade-left" data-aos-duration="2000">Our Moments</h1>
 
-        <p data-aos="fade-left" data-aos-duration="1500">"And over all these virtues put on love, which binds them all together in perfect unity."</p>
-        <h5 data-aos="fade-left" data-aos-duration="2000">Colossians 3:14</h5>
+      <p data-aos="fade-left" data-aos-duration="1500">"And over all these virtues put on love, which binds them all together in perfect unity."</p>
+      <h5 data-aos="fade-left" data-aos-duration="2000">Colossians 3:14</h5>
 
 
-        <div class="vidio-container d-flex justify-content-center align-item-center mt-3" data-aos="fade-left" data-aos-duration="2000">
-          <video style="width: 329px;
+      <div class="vidio-container d-flex justify-content-center align-item-center mt-3" data-aos="fade-left" data-aos-duration="2000">
+        <video style="width: 329px;
               height: 160px;
               flex-shrink: 0; " autoplay muted>
-            <source src="img/vidio_contoh.mp4" type="video/mp4">
-            <!-- Tambahkan sumber video lainnya untuk browser yang tidak mendukung format mp4 -->
-            Maaf, video tidak dapat diputar.
-          </video>
-        </div>
-
-        <div class="parent mt-2">
-          <div class="div1" data-aos="fade-right" data-aos-duration="2000"> <img src="img/moment-1.png" alt=""> </div>
-          <div class="div2" data-aos="fade-left" data-aos-duration="1500"> <img src="img/moment-2.png" alt=""> </div>
-          <div class="div3" data-aos="fade-right" data-aos-duration="2000"> <img src="img/moment-3.png" alt=""> </div>
-          <div class="div4" data-aos="fade-left" data-aos-duration="1500"> <img src="img/moment-4.png" alt=""> </div>
-          <div class="div5" data-aos="fade-right" data-aos-duration="2000"> <img src="img/moment-5.png" alt=""> </div>
-          <div class="div6" data-aos="fade-left" data-aos-duration="1500"> <img src="img/moment-6.png" alt=""> </div>
-        </div>
-
-
-
-
+          <source src="img/vidio_contoh.mp4" type="video/mp4">
+          <!-- Tambahkan sumber video lainnya untuk browser yang tidak mendukung format mp4 -->
+          Maaf, video tidak dapat diputar.
+        </video>
       </div>
+
+      <div class="parent mt-2">
+        <div class="div1" data-aos="fade-right" data-aos-duration="2000"> <img src="img/moment-1.png" alt=""> </div>
+        <div class="div2" data-aos="fade-left" data-aos-duration="1500"> <img src="img/moment-2.png" alt=""> </div>
+        <div class="div3" data-aos="fade-right" data-aos-duration="2000"> <img src="img/moment-3.png" alt=""> </div>
+        <div class="div4" data-aos="fade-left" data-aos-duration="1500"> <img src="img/moment-4.png" alt=""> </div>
+        <div class="div5" data-aos="fade-right" data-aos-duration="2000"> <img src="img/moment-5.png" alt=""> </div>
+        <div class="div6" data-aos="fade-left" data-aos-duration="1500"> <img src="img/moment-6.png" alt=""> </div>
+      </div>
+
+
+
+
+      <!-- </div> -->
     </div>
 
   </section>
@@ -353,8 +362,8 @@
           <form method="post" class="form-data" id="form-data">
 
             <div class="form-group" data-aos="fade-right" data-aos-duration="1500">
-              <label for="nama">Nama</label>
-              <input type="text" class="form-control custom-input text-white " id="name" name="name" placeholder="Masukkan nama">
+              <label for="nama" style="font-weight: 500; font-size:14px">Your Name</label>
+              <input type="text" class="form-control custom-input " id="name" name="name" placeholder="Let us know who are you...">
             </div>
 
             <!-- <div class="form-group mt-4">
@@ -363,8 +372,8 @@
             </div> -->
 
             <div class="form-group mt-4" data-aos="fade-left" data-aos-duration="2000">
-              <label for="ucapan">Ucapan</label>
-              <textarea class="form-control custom-input" id="ucapan" name="ucapan" rows="3" placeholder="Masukkan ucapan"></textarea>
+              <label for="ucapan" style="font-weight: 500; font-size:14px">Your Wishes</label>
+              <textarea class="form-control custom-input" id="ucapan" name="ucapan" rows="3" placeholder="Send us your wishes..."></textarea>
             </div>
 
             <button name="simpan" id="submitBtn" value="submit" type="submit" class="btn btn-primary mx-auto text-center d-flex justify-content-center align-item-center text-white mt-5" data-aos="fade-up" data-aos-duration="1500">
@@ -383,24 +392,17 @@
 
         <!-- daftar ucapan -->
         <!-- <h5>Data Tersimpan</h5> -->
-        <div id="data_table" data-aos="fade-up" data-aos-duration="2000"></div>
+        <div id="data_table" data-aos="fade-up" data-aos-duration="2000">
 
-        <!-- Paginasi -->
-        <!-- <div id="data-container"></div>
-        <button id="prev-btn">Previous</button>
-        <button id="next-btn">Next</button> -->
+        </div>
+
+
 
         <nav aria-label="...">
           <ul class="pagination pagination-sm">
             <li class="page-item">
-              <span id="prev-btn" class="btn text-white border-0 me-1" style="background-color: #764640;">Previous</span>
+              <span id="prev-btn" class="btn text-white border-0 me-1" style="background-color: #764640;">Prev</span>
             </li>
-
-            <!-- <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item active" aria-current="page">
-              <span class="page-link">2</span>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li> -->
 
             <li class="page-item">
               <span id="next-btn" class="btn text-white border-0" style="background-color: #764640;">Next</span>
@@ -420,11 +422,14 @@
   <section id="hal-8" class="hal-8 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white">
 
     <main>
-      <div class="hal-1-content-1">
-        <p style="font-family: Poppins;">Thankyou</p>
-        <h3 class="mt-4">Mentari & Bintang</h3>
+      <div class="hal-8-pembungkus">
+        <div class="hal-8-content-1">
+          <p style="font-family: Poppins;">Thankyou</p>
+          <h3 class="mt-4">Mentari & Bintang</h3>
+        </div>
+        <p class="mt-3">12 . 12 . 2024</p>
       </div>
-      <p class="mt-3">12 . 12 . 2024</p>
+
 
 
       <div class="footer">
@@ -447,7 +452,7 @@
 
 
 
-  <button type="button" id="tombol-musik" style="display: none;" class="btn btn-light btn-sm rounded-circle btn-music" onclick="play(this)" data-status="true" data-url="./music/music1.mp3">
+  <button type="button" id="tombol-musik" style="display: none;" class="btn btn-light btn-lg rounded-circle btn-music" onclick="play(this)" data-status="true" data-url="./music/music1.mp3">
     <i class="fa-solid fa-circle-pause"></i>
   </button>
 
@@ -495,7 +500,6 @@
     disableScroll();
   </script>
 
-  <!-- script untuk on/off music -->
 
 
 

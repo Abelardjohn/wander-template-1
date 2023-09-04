@@ -23,17 +23,23 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 
     while ($row = $result->fetch_assoc()) {
-        echo '<div class="card  mt-3 rounded-3" style="width: 18rem;">
-                <div class="card-body" style="font-size: 7px;">
-                    <p class="card-title text-start "><strong>From: ' . $row["name"] . '</strong></p>   
-                    <p class="card-text text-start ">' . $row["ucapan"] . '</p>
+        echo '<div class="card card-sm  mt-2 rounded-3" style="width: 16rem;">
+                <div class="card-body" >
+                    <p style="font-size:9px" class="card-title text-start"><strong>From: ' . $row["name"] . '</strong></p>   
+                    <p style="font-size:9px" class="card-text text-start ">' . $row["ucapan"] . '</p>
                 </div>
               </div>';
     }
 
     echo "</table>";
 } else {
-    echo "Tidak ada data yang ditemukan.";
+    echo '<div class="card card-sm  mt-2 rounded-3" style="width: 14rem;">
+    <div class="card-body " >
+        
+        <p style="font-size:10px;" class="card-title text-center"><strong>No Data Found</strong></p>  
+        
+    </div>
+  </div>';
 }
 
 $conn->close();
