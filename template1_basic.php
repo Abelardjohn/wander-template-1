@@ -108,9 +108,9 @@
         <div class="hero-content-text1" data-aos="fade-right" data-aos-duration="2000">
           <p>THE WEDDING OF</p>
 
-          <h3>Mentari</h3>
+          <h3><span style="font-size: 4rem;">M</span>entari</h3>
           <h3>&</h3>
-          <h3>Bintang</h3>
+          <h3><span style="font-size: 4rem;">B</span>intang</h3>
         </div>
 
         <div class="hero-info" data-aos="fade-left" data-aos-duration="2000">
@@ -158,7 +158,7 @@
   <section id="hal-3" class="hal-3 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white">
 
     <main>
-      <h4 style="color: #53312D; font-size: 1.1875rem; letter-spacing: 0.0475rem;" data-aos="fade-down" data-aos-duration="1500"><strong>THE GROOM AND THE BRIDE</strong></h4>
+      <h4 style="color: #53312D; font-size: 1.1875rem; letter-spacing: 0.0475rem; font-weight:500;" data-aos="fade-down" data-aos-duration="1500">THE GROOM AND THE BRIDE</h4>
 
       <div class="gambar1" data-aos="fade-left" data-aos-duration="2000">
         <img class="mt-3" src="img/groom.png" alt="groom photo">
@@ -213,12 +213,12 @@
 
         </div>
         <!-- ... -->
-        <img class="heart-shape mt-3" src="img/photo5.png" alt="photo 5" data-aos="fade-left" data-aos-duration="1500">
+        <img class="heart-shape mt-3" src="img/Img-Love.png" style="width: 14.80363rem; height: 11.83rem;" alt="photo 5" data-aos="fade-left" data-aos-duration="1500">
 
         <!-- alamat-1 -->
         <div class="alamat-1 mt-4" data-aos="fade-left" data-aos-duration="2000">
 
-          <h3 style="font-family: Amita; font-weight: 550;" style="font-size:smaller">HOLY MATRIMONY</h3>
+          <h3 style="font-family: Amita; font-weight: 600;" style="font-size:smaller">HOLY MATRIMONY</h3>
           <h6 class="mt-3" style="font-size:smaller">THURSDAY</h6>
           <h2 style="font-weight: 700;">12</h2>
           <h6 style="font-size:smaller">DECEMBER 2024</h6>
@@ -240,7 +240,7 @@
 
         <div class="alamat-2 mt-5" data-aos="fade-right" data-aos-duration="1500">
 
-          <h3 style="font-family: Amita; font-weight: 550;" style="font-size:smaller">HOLY MATRIMONY</h3>
+          <h3 style="font-family: Amita; font-weight: 600;" style="font-size:smaller">WEDDING PARTY</h3>
           <h6 class="mt-3" style="font-size:smaller">THURSDAY</h6>
           <h2 style="font-weight: 700;">12</h2>
           <h6 style="font-size:smaller">DECEMBER 2024</h6>
@@ -271,7 +271,7 @@
   <section id="hal-5" class="hal-5 w-100 h-100 mx-auto text-center d-flex justify-content-center align-item-center text-white">
 
     <main>
-      <h4 style="color: #53312D; font-size: 1.1875rem; letter-spacing: 0.0475rem;" data-aos="fade-down" data-aos-duration="1500"><strong>OUR LOVE STORY</strong></h4>
+      <h4 style="color: #53312D; font-size: 1.1875rem; letter-spacing: 0.0475rem; font-weight:500" data-aos="fade-down" data-aos-duration="1500">OUR LOVE STORY</h4>
 
       <div class="gambar1" data-aos="fade-right" data-aos-duration="2000">
         <img class="mt-3" src="img/love-story-1.png" alt="love story 1">
