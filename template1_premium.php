@@ -613,7 +613,7 @@
             rootElement.style.scrollBehavior = 'smooth';
         }
 
-        // disableScroll();
+        disableScroll();
     </script>
 
     <!-- script untuk memanggil nama tamu -->
