@@ -18,14 +18,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-
   <!-- animasi aos -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous">
-
   <!-- logo -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
 
@@ -114,7 +111,7 @@
         </div>
 
         <div class="hero-info" data-aos="fade-left" data-aos-duration="2000">
-          <P>Dear: Arwan & Aurora</P>
+          <P>Dear: <span id="namaTamu"></span></P>
           <a href="#open-invitation" id="hero-button" class="btn btn-open-invitation text-white" onclick="enableScroll()">Open Invitation</a>
         </div>
       </main>
@@ -131,7 +128,7 @@
         <h3 class="mt-4">Mentari & Bintang</h3>
       </div>
 
-      <p style="color: #8D6560; opacity: 0.5;" class="hal-1-content-2 mt-4">Join us on our special day, where your <br> presence is cherished</p>
+      <p style="color: #8D6560;" class="hal-1-content-2 mt-4">Join us on our special day, where your <br> presence is cherished</p>
     </main>
 
   </section>
@@ -335,17 +332,15 @@
         <div class="div6" data-aos="fade-left" data-aos-duration="1500"> <img src="img/moment-6.png" alt=""> </div>
       </div>
 
-
-
-
       <!-- </div> -->
+
+
     </div>
 
   </section>
 
-
-
   <!-- end of hal-6 -->
+
 
 
   <!-- hal-7 section wishes-->
@@ -384,7 +379,7 @@
                 </g>
               </svg>
 
-              Send Your Wishes</button>
+              <span style="margin-top: 3px;">Send Your Wishes</span></button>
 
           </form>
         </div>
@@ -497,9 +492,20 @@
       rootElement.style.scrollBehavior = 'smooth';
     }
 
-    disableScroll();
+    // disableScroll();
   </script>
 
+  <!-- script untuk memanggil nama tamu -->
+  <script>
+    const queryString = document.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const namatamu = urlParams.get('mengundang');
+
+    // Menampilkan nama tamu dari parameter
+    document.getElementById("namaTamu").textContent = namatamu;
+  </script>
+
+  <!-- /?mengundang=rafi ahmad -->
 
 
 

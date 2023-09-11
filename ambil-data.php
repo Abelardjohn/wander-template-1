@@ -23,7 +23,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 
     while ($row = $result->fetch_assoc()) {
-        echo '<div class="card card-sm  mt-2 rounded-3" style="width: 16rem;">
+        echo '<div class="card card-sm  mt-2 rounded-3" style="width: 16rem; border-color:#53312D;">
                 <div class="card-body" >
                     <p style="font-size:9px" class="card-title text-start"><strong>From: ' . $row["name"] . '</strong></p>   
                     <p style="font-size:9px" class="card-text text-start ">' . $row["ucapan"] . '</p>
